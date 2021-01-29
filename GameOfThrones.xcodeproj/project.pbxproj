@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3613E30425C4B3DA0013AD1F /* GameOfThronesTests in Resources */ = {isa = PBXBuildFile; fileRef = 3613E30325C4B3DA0013AD1F /* GameOfThronesTests */; };
 		3615AD8125C4A9B9005F72E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3615AD8025C4A9B9005F72E2 /* Constants.swift */; };
 		3615AD8425C4AA21005F72E2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3615AD8225C4AA20005F72E2 /* DetailViewController.swift */; };
 		3615AD8525C4AA21005F72E2 /* HousesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3615AD8325C4AA20005F72E2 /* HousesViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3613E30325C4B3DA0013AD1F /* GameOfThronesTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameOfThronesTests; sourceTree = "<group>"; };
 		3615AD8025C4A9B9005F72E2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3615AD8225C4AA20005F72E2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3615AD8325C4AA20005F72E2 /* HousesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousesViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			children = (
 				36D83E2B25BDDD440030A47B /* GameOfThrones */,
 				36D83E2A25BDDD440030A47B /* Products */,
+				3613E30325C4B3DA0013AD1F /* GameOfThronesTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,6 +187,7 @@
 				3615AD8725C4AA74005F72E2 /* Main.storyboard in Resources */,
 				36D83E3725BDDD470030A47B /* LaunchScreen.storyboard in Resources */,
 				36D83E3425BDDD470030A47B /* Assets.xcassets in Resources */,
+				3613E30425C4B3DA0013AD1F /* GameOfThronesTests in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
