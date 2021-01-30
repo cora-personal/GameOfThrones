@@ -12,7 +12,8 @@ protocol HouseManagerDelegate {
 
 class HouseManager {
     var delegate: HouseManagerDelegate?
-    var additonalResults = true
+    var performedRequest = false
+    var additonalResults = true //allResultsFetched
     let housesURL = K.housesURL
     var pageNumber = 1
     
@@ -31,11 +32,12 @@ class HouseManager {
                 
                 if error != nil {
                     print(error!)
+                    self.delegate?.didUpdateHouses(houses: [])
                     return
                 }
                 
                 if let houses = self.parseJSON(housesData: data!) {
-                    self.delegate?.didUpdateHouses(houses: houses)
+                   self.delegate?.didUpdateHouses(houses: houses)
                 }
                 
             }
