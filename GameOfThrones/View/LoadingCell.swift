@@ -1,14 +1,11 @@
 //
 //  Cells.swift
 //
-//  Created by My Apps on 11/10/2020.
-//  Copyright © 2020 Angela Yu. All rights reserved.
 //
 
 import UIKit
 
 class LoadingCell: UITableViewCell {
-    
     
     @IBOutlet weak var spinner: UIActivityIndicatorView!
     
