@@ -12,18 +12,20 @@ protocol HouseManagerDelegate {
 
 class HouseManager {
     var delegate: HouseManagerDelegate?
-    var performedRequest = false
-    var additonalResults = true //allResultsFetched
     let housesURL = K.housesURL
     var pageNumber = 1
-    
+    var performedRequest = false
+    var isLoading = true
+    var resultsToFetch = true
+   
     func fetchHouses() {
-        let urlString = "\(housesURL)page=\(pageNumber)&pageSize=50"
         
+        let urlString = "\(housesURL)page=\(pageNumber)&pageSize=50"
         performRequest(urlString: urlString)
     }
     
     func performRequest(urlString: String) {
+        
         if let url = URL(string: urlString) {
             
             let session = URLSession(configuration: .default)
@@ -37,32 +39,35 @@ class HouseManager {
                 }
                 
                 if let houses = self.parseJSON(housesData: data!) {
-                   self.delegate?.didUpdateHouses(houses: houses)
+                    self.delegate?.didUpdateHouses(houses: houses)
                 }
-                
             }
             task.resume()
         }
     }
     
     func parseJSON(housesData: Data) -> [HouseModel]? {
+        
         var houses: [HouseModel] = []
         let decoder = JSONDecoder()
         do {
             let decodedData = try decoder.decode([HouseModel].self, from: housesData)
-            
-            print(decodedData)
-            
             if decodedData.count > 0 {
                 self.pageNumber += 1
                 houses += decodedData
             } else {
-                additonalResults = false
+                resultsToFetch = false
                 print("No (additional) results returned")
             }
         } catch {
             print("Parsing Error:\(error)")
         }
         return houses
+    }
+    
+    func fetchAdditonalResults(row: Int, lastHouse: Int) {
+        if row == lastHouse - 1 && resultsToFetch {
+            fetchHouses()
+        }
     }
 }

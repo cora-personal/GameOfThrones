@@ -14,6 +14,7 @@
 		3615AD8725C4AA74005F72E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3615AD8625C4AA74005F72E2 /* Main.storyboard */; };
 		3615AD8A25C4AA92005F72E2 /* HouseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3615AD8825C4AA92005F72E2 /* HouseManager.swift */; };
 		3615AD8B25C4AA92005F72E2 /* HouseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3615AD8925C4AA92005F72E2 /* HouseModel.swift */; };
+		364CE7B625C6CF9000C0F486 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364CE7B525C6CF9000C0F486 /* Cells.swift */; };
 		3665F7B525C5F209000786FA /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3665F7B325C5F209000786FA /* LoadingCell.xib */; };
 		3665F7B625C5F209000786FA /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3665F7B425C5F209000786FA /* NothingFoundCell.xib */; };
 		36D83E2D25BDDD440030A47B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D83E2C25BDDD440030A47B /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 		3615AD8625C4AA74005F72E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3615AD8825C4AA92005F72E2 /* HouseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseManager.swift; sourceTree = "<group>"; };
 		3615AD8925C4AA92005F72E2 /* HouseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseModel.swift; sourceTree = "<group>"; };
+		364CE7B525C6CF9000C0F486 /* Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
 		3665F7B325C5F209000786FA /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		3665F7B425C5F209000786FA /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 		36D83E2925BDDD440030A47B /* GameOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				3615AD8625C4AA74005F72E2 /* Main.storyboard */,
 				3665F7B325C5F209000786FA /* LoadingCell.xib */,
 				3665F7B425C5F209000786FA /* NothingFoundCell.xib */,
+				364CE7B525C6CF9000C0F486 /* Cells.swift */,
 				36D83E3525BDDD470030A47B /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -212,6 +215,7 @@
 				3615AD8125C4A9B9005F72E2 /* Constants.swift in Sources */,
 				3615AD8A25C4AA92005F72E2 /* HouseManager.swift in Sources */,
 				3615AD8425C4AA21005F72E2 /* DetailViewController.swift in Sources */,
+				364CE7B625C6CF9000C0F486 /* Cells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

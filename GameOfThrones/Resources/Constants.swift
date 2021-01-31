@@ -11,7 +11,7 @@ struct K {
     struct CellIdentifiers {
         static let houseCell = "ReusableCell"
         static let nothingFoundCell = "NothingFoundCell"
-        static let loadingCell = "Loading Cell"
+        static let loadingCell = "LoadingCell"
     }
 }
 
