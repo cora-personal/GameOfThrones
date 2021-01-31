@@ -59,7 +59,7 @@ extension HousesViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        
         if houses.count > 0 {
-            performSegue(withIdentifier: K.detailSegueIdenifier, sender: indexPath)
+            performSegue(withIdentifier: K.SegueIdentifiers.detailSegue, sender: indexPath)
         } else {
             return
         }
@@ -68,7 +68,7 @@ extension HousesViewController: UITableViewDelegate, UITableViewDataSource {
     //Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
        
-        if segue.identifier == K.detailSegueIdenifier {
+        if segue.identifier == K.SegueIdentifiers.detailSegue {
             let detailViewController = segue.destination
                 as! DetailViewController
             let indexPath = sender as! IndexPath

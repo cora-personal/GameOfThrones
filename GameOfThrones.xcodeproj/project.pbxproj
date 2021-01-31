@@ -14,6 +14,7 @@
 		3615AD8725C4AA74005F72E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3615AD8625C4AA74005F72E2 /* Main.storyboard */; };
 		3615AD8A25C4AA92005F72E2 /* HouseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3615AD8825C4AA92005F72E2 /* HouseManager.swift */; };
 		3615AD8B25C4AA92005F72E2 /* HouseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3615AD8925C4AA92005F72E2 /* HouseModel.swift */; };
+		3630FA5C25C6ED43007C5646 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630FA5B25C6ED43007C5646 /* SplashScreenViewController.swift */; };
 		364CE7B625C6CF9000C0F486 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364CE7B525C6CF9000C0F486 /* LoadingCell.swift */; };
 		3665F7B525C5F209000786FA /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3665F7B325C5F209000786FA /* LoadingCell.xib */; };
 		3665F7B625C5F209000786FA /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3665F7B425C5F209000786FA /* NothingFoundCell.xib */; };
@@ -30,6 +31,7 @@
 		3615AD8625C4AA74005F72E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3615AD8825C4AA92005F72E2 /* HouseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseManager.swift; sourceTree = "<group>"; };
 		3615AD8925C4AA92005F72E2 /* HouseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseModel.swift; sourceTree = "<group>"; };
+		3630FA5B25C6ED43007C5646 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashScreenViewController.swift; path = GameOfThrones/Controller/SplashScreenViewController.swift; sourceTree = SOURCE_ROOT; };
 		364CE7B525C6CF9000C0F486 /* LoadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
 		3665F7B325C5F209000786FA /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		3665F7B425C5F209000786FA /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		36D83E4025BDDD9D0030A47B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3630FA5B25C6ED43007C5646 /* SplashScreenViewController.swift */,
 				3615AD8225C4AA20005F72E2 /* DetailViewController.swift */,
 				3615AD8325C4AA20005F72E2 /* HousesViewController.swift */,
 			);
@@ -211,6 +214,7 @@
 			files = (
 				3615AD8525C4AA21005F72E2 /* HousesViewController.swift in Sources */,
 				36D83E2D25BDDD440030A47B /* AppDelegate.swift in Sources */,
+				3630FA5C25C6ED43007C5646 /* SplashScreenViewController.swift in Sources */,
 				3615AD8B25C4AA92005F72E2 /* HouseModel.swift in Sources */,
 				3615AD8125C4A9B9005F72E2 /* Constants.swift in Sources */,
 				3615AD8A25C4AA92005F72E2 /* HouseManager.swift in Sources */,

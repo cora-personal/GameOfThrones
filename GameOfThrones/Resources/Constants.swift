@@ -6,7 +6,11 @@
 
 struct K {
     static let housesURL = "https://www.anapioficeandfire.com/api/houses?"
-    static let detailSegueIdenifier = "ShowDetail"
+    
+    struct SegueIdentifiers {
+        static let detailSegue = "ShowDetail"
+        static let houseListSegue = "ShowList"
+    }
     
     struct CellIdentifiers {
         static let houseCell = "ReusableCell"
