@@ -29,3 +29,6 @@ and if there are no resuts returned, the user will see this (however this should
 <p align="center">
 <img src="Demo/NothingFound.png" width="270" title="No Results"
 </p>
+
+### Deployment Target Note:
+The deployment target is iOS 13 as I was unable to update to the most recent version of XCode, due my old Mac lacking storage :( 
