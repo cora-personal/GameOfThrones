@@ -31,4 +31,5 @@ and if there are no resuts returned, the user will see this (however this should
 </p>
 
 ### Deployment Target Note:
-The deployment target is iOS 13 as I was unable to update to the most recent version of XCode, due my old Mac lacking storage :( 
+The deployment target is iOS 13
+  
